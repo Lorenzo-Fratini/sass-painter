@@ -1,0 +1,103 @@
+footer {
+    width: 100%;
+    background-color: #ececec;
+    
+    .footer-top {
+        width: 100%;
+        padding: 50px 20% 0 10%;
+        display: flex;
+        justify-content: space-between;
+
+        h4 {
+            font-weight: normal;
+            color: #111;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            li {
+                list-style: none;
+                margin-bottom: 10px;
+
+                a {
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    color: #515151;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .social-cont {
+        width: 100%;
+        padding: 20px 10%;
+        display: flex;
+        justify-content: flex-end;
+
+        i {
+            font-size: 2rem;
+            margin-right: 10px;
+
+        }
+
+        .fa-instagram-square {
+            color: $instagram-color;
+        }
+    
+        .fa-facebook-square {
+            color: $facebook-color;
+        }
+    
+        .fa-twitter-square {
+            color: $twitter-color;
+        }
+    
+        .fa-youtube-square {
+            color: $youtube-color;
+        }
+    
+        .fa-pinterest-square {
+            color: $pinterest-color;
+        }
+    }
+
+    .footer-bottom {
+        width: 100%;
+        padding: 20px 10%;
+        background-color: #1e1e1e;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-image {
+            display: flex;
+
+            img {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .footer-policy {
+        display: flex;
+        align-items: center;
+
+        a {
+            color: #515151;
+            text-decoration: none;
+            margin-right: 10px;
+
+            &:hover {
+                color: $color-secondary;
+                text-decoration: underline;
+            }
+        }
+
+        span {
+            color: $color-secondary;
+        }
+    }
+}
