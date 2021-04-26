@@ -1,9 +1,15 @@
-$bg-primary: #232f3e;
+$color-primary: #000;
+$color-secondary: #fff;
+$color-tertiary: #777;
 
-$color-primary: #fff;
+@mixin btn-1 {
+    border: 2px solid #000;
+    color: #fff;
+    background: #000;
+};
 
-@mixin example {
-    
-    background-color: #fff;
+@mixin btn-2 {
+    border: 2px solid #000;
     color: #000;
-}
+    background: transparent;
+};
