@@ -13,3 +13,12 @@ $color-tertiary: #777;
     color: #000;
     background: transparent;
 };
+
+@mixin btn-3 {
+    width: auto;
+    font-size: 1.1rem;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+};

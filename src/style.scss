@@ -1,5 +1,7 @@
 @import "partials/variables";
 @import "partials/header";
+@import "partials/main";
+
 
 * {
     margin: 0;
@@ -11,4 +13,5 @@ body {
     width: 100%;
     font-size: 14px;
     font-family: sans-serif;
+    background-color: #e8e8e8;
 }

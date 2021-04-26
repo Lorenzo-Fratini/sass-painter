@@ -1,0 +1,132 @@
+main {
+    width: 100%;
+    height: 800px;
+    padding: 50px 10% 0 10%;
+
+    h2 {
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .polaroid-cont {
+        width: 100%;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .polaroid {
+            width: 32%;
+            background-color: $color-secondary;
+
+            img {
+                width: 100%;
+            }
+
+            .polaroid-info {
+                padding: 25px;
+
+                .new {
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    font-style: italic;
+                    color: #009cff;
+                    font-weight: bold;
+                }
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    margin: 20px 0;
+                    font-size: 1.1rem;
+                    line-height: 1.5;
+                }
+
+                a {
+                    color: #009cff;
+                    font-size: 1.1rem;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .puzzle-cont {
+        width: 100%;
+        color: $color-secondary;
+
+        .puzzle-row {
+            width: 100%;
+            display: flex;
+            
+            .puzzle-box {
+                width: 50%;
+                padding: 70px 50px;
+                min-height: 300px;
+                
+                h3 {
+                    font-size: 1.8rem;
+                    font-weight: normal;
+                }
+
+                p {
+                    margin: 30px 0;
+                    font-size: 1.1rem;
+                    line-height: 1.5;
+                }
+
+                a {
+                    padding: 10px 30px;
+                    @include btn-3;
+                }
+            }
+            
+            .puzzle-img {
+                width: 50%;
+                
+                img {
+                    width: 80%;
+                }
+            }
+
+            .bg-1 {
+                background-color: #3c1567;
+            }
+
+            .bg-2 {
+                background-color: #3c3c3c;
+            }
+
+            .bg-3 {
+                background-color: #0072bc;
+            }
+
+            .img-bg {
+                padding: 0;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .img-1 {
+                background-image: url("img/wacom-painter.jpg");
+            }
+
+            .img-2 {
+                background-image: url("img/painter-master.jpg");
+            }
+
+            .img-3 {
+                background-image: url("img/business-education.jpg");
+            }
+        }
+    }
+}
